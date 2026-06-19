@@ -1,0 +1,53 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="h-full flex flex-col p-12">
+    <div class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-1">What It Does</div>
+    <h2 class="text-3xl font-black text-slate-900 mb-2">Core Features</h2>
+    <div class="flex gap-2 mb-6">
+      <span class="px-3 py-1 bg-slate-900 text-white text-xs font-bold rounded-full">Casual Player</span>
+      <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs font-semibold rounded-full">Two-Player Local</span>
+    </div>
+    <div class="sl-grid grid gap-4 flex-1">
+
+      <div class="bg-slate-50 rounded-xl p-5 flex flex-col">
+        <div class="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center mb-3 text-white font-black text-base">⊞</div>
+        <h4 class="font-bold text-slate-900 mb-1">Interactive Board</h4>
+        <p class="text-slate-500 text-sm leading-relaxed">Clickable 3×3 grid. Cells lock once marked — no overwriting, no disputes.</p>
+      </div>
+
+      <div class="bg-slate-50 rounded-xl p-5 flex flex-col">
+        <div class="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center mb-3 text-white font-black text-base">⇄</div>
+        <h4 class="font-bold text-slate-900 mb-1">Turn Management</h4>
+        <p class="text-slate-500 text-sm leading-relaxed">X and O alternate automatically. A clear indicator always shows whose turn it is.</p>
+      </div>
+
+      <div class="bg-slate-50 rounded-xl p-5 flex flex-col">
+        <div class="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center mb-3 text-white font-black text-base">✓</div>
+        <h4 class="font-bold text-slate-900 mb-1">Win Detection</h4>
+        <p class="text-slate-500 text-sm leading-relaxed">Checks all 8 winning lines after every move. Highlights the winning combination on the board.</p>
+      </div>
+
+      <div class="bg-slate-50 rounded-xl p-5 flex flex-col">
+        <div class="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center mb-3 text-white font-black text-base">=</div>
+        <h4 class="font-bold text-slate-900 mb-1">Draw Detection</h4>
+        <p class="text-slate-500 text-sm leading-relaxed">Recognizes a full board with no winner and declares a draw immediately.</p>
+      </div>
+
+      <div class="bg-emerald-600 rounded-xl p-5 flex flex-col">
+        <div class="w-8 h-8 bg-emerald-800 rounded-lg flex items-center justify-center mb-3 text-white font-black text-base">↺</div>
+        <h4 class="font-bold text-white mb-1">Instant Replay</h4>
+        <p class="text-emerald-100 text-sm leading-relaxed">One button resets the board without a page reload. Back to first move in one click.</p>
+      </div>
+
+      <div class="bg-slate-900 rounded-xl p-5 flex flex-col">
+        <div class="w-8 h-8 bg-slate-700 rounded-lg flex items-center justify-center mb-3 text-white font-black text-base">∞</div>
+        <h4 class="font-bold text-white mb-1">No Limits</h4>
+        <p class="text-slate-400 text-sm leading-relaxed">Play as many games as you want. No cooldowns, no accounts, no ads.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
