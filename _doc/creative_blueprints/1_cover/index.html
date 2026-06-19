@@ -1,0 +1,25 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left { width: 55%; }
+.mode-landscape .sl-right { width: 45%; }
+.mode-portrait .sl-left { width: 100%; flex: 1; }
+.mode-portrait .sl-right { width: 100%; height: 40%; }
+</style>
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="sl-layout flex h-full">
+    <div class="sl-left flex flex-col justify-between p-12 bg-slate-900">
+      <div>
+        <span class="inline-block text-xs font-bold tracking-widest text-emerald-400 uppercase mb-6">Browser · Two Player · Instant</span>
+        <h1 class="text-5xl font-black text-white leading-tight mb-5">Classic Strategy.<br>Zero Friction.</h1>
+        <p class="text-slate-300 text-lg leading-relaxed max-w-sm">Two players. One 3×3 grid. A win detector and a replay button — nothing more, nothing less.</p>
+      </div>
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+    <div class="sl-right bg-slate-50 flex items-center justify-center overflow-hidden">
+      <img src="http://localhost:8001/common/image-generation?prompt=clean+minimalist+tic-tac-toe+game+board+bold+black+X+and+O+marks+white+background+editorial+flat+illustration+top+view" class="w-full h-full object-cover" alt="Tic-Tac-Toe board" />
+    </div>
+  </div>
+</section>
